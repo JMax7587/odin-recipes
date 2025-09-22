@@ -1,55 +1,107 @@
+/* Home */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: sans-serif;
-    background-color: rgb(12, 119, 122);
-    font-weight: bold;
-    padding: 10px;
-}
-.links {
-    color: rgb(204, 50, 50);
-}
-
-.pizza-link {
-    margin: 8px;
+    font-family: Roboto;
+    min-height: 100vh;
+    background-color: rgb(106, 131, 78);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 3px solid rgb(0, 0, 0); */
 }
 
-h1 {
-    color: rgb(255, 145, 0);
-    padding: 8px;
+.header {
+    /* border: 3px solid red; */
+    display: flex;
+    color: blanchedalmond;
+    background-color: rgba(31, 73, 31, 0.733);
+    font-size: 34px;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 0px 5px 5px rgba(48, 70, 41, 0.486);
+}
+
+#tema {
+    margin: 2rem;
+    border-radius: 1em;
+}
+
+.container {
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* border: 3px solid; */
+}
+
+.row {
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    /* border: 8px solid red; */
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 3em;
+}
+
+.boxone {
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 270px;
+}
+
+.boxtwo {
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 270px;
+
+}
+
+.boxthree {
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 270px;
+}
+
+.receta {
+    border-radius: 1em;
+    display: flex;
+    transition: 0.5s;
+}
+.receta:hover {
+    box-shadow: 10px 5px 5px rgba(48, 70, 41, 0.486);
+    width: 270px;
+    transition: 0.5s;
+}
+#name {
+    /* border: 2px solid blue; */
+    width: 270px;
     text-align: center;
+    padding-top: 6px;
+    color: bisque;
 }
 
-h3 {
-    color: rgb(207, 221, 3);
-    padding: 8px;
-}
+/* ---------------------- Recetas ------------------------ */
 
-h5 {
-    color: aquamarine;
-    font-style: italic;
-}
-
-#description {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 16px;
-}
-
-.description-text {
-    text-align: center;
-    color: white;
-    margin-bottom: 40px;
-}
-
-img {
-    display: block;
-    margin: auto;
-}
-
-.all-text {
-    color: white;
-    margin-bottom: 40px;
-}
-
-.list li {
-    margin-bottom: 15px;
-}
