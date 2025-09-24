@@ -30,6 +30,8 @@ body {
 #tema {
     margin: 2rem;
     border-radius: 1em;
+    box-shadow: 0px 0px 18px rgb(48, 70, 41);
+
 }
 
 .container {
@@ -115,6 +117,7 @@ body {
     padding: 1rem;
     box-shadow: 0px 5px 5px rgba(48, 70, 41, 0.486);
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .title {
@@ -152,5 +155,92 @@ body {
     border: 1px solid rgb(31, 73, 31, 0);
     background-color: rgb(31, 73, 31, 0);
     box-shadow: 0px 0px 8px rgb(29, 43, 25);
+}
 
+.contop {
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 840px;
+    border: 2px solid rgba(12, 61, 15, 0.671);
+    padding-left: 3.5em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 8px rgb(29, 43, 25);
+
+}
+
+.description {
+    /* border: 2px solid red; */
+    width: 800px;
+    padding-right: 12em;
+}
+
+#des {
+    color: blanchedalmond;
+    padding-bottom: 6px;
+}
+
+.description-text {
+    color: aliceblue;
+}
+
+.ingredients {
+    /* border: 2px solid red; */
+    width: 840px;
+}
+
+#ing {
+    color: blanchedalmond;
+    padding-bottom: 6px;
+}
+
+.all-text {
+    color: aliceblue;
+}
+
+li {
+    padding-bottom: 6px;
+}
+
+.conbottom {
+    width: 840px;
+    /* height: 400px; */
+    padding-left: 1.5em;
+    margin-top: 1em;
+    border: 2px solid rgba(12, 61, 15, 0.671);
+    box-shadow: 0px 0px 8px rgb(29, 43, 25);
+    border-radius: 2rem;
+}
+
+#steps {
+    text-align: center;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    padding-right: 1.5em;
+    padding-top: 15px;
+}
+
+li.lili {
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+}
+
+ol {
+    padding-left: 2em;
+    padding-right: 1.5em;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 1;
+    padding: 2em;
 }
